@@ -32,8 +32,13 @@ body{
   display: flex;
   gap: 25px;
 }
-.nav i{
+.icons{
+  display: flex;
+  gap: 25px;
+}
+.icons i{
   cursor: pointer;
+
 }
 .products{
   padding: 0 85px;
@@ -78,6 +83,7 @@ body{
 }
 input{
   font-size: 14px;
+  width: 205px;
   color: #333;
   background-color: #f3f3f3;
   border: 2px solid rgba(0,0,0,0);
@@ -92,5 +98,14 @@ input:focus{
 @media (max-width: 719px) {
   .products{
     justify-content: center;
+  }
+  .header{
+    display: block;
+  }
+  input{
+    margin-bottom: 15px;
+  }
+  .nav{
+    display: block;
   }
 }

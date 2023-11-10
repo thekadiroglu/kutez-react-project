@@ -56,9 +56,10 @@ function App() {
           <h1>MY JEWELRY STORE</h1>
         </div>
         <div className="nav">
-        <input type="text" placeholder='Ne Aramıştınız?'/>
-        <i class="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-bag-shopping"></i>
+          <input type="text" placeholder='Ne Aramıştınız?' />
+          <div className="icons"><i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bag-shopping"></i></div>
+        
         </div>
       </div>
       <div className="products">
