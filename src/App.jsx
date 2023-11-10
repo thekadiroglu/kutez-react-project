@@ -56,8 +56,9 @@ function App() {
           <h1>MY JEWELRY STORE</h1>
         </div>
         <div className="nav">
-          <img src={icon2} alt="" />
-          <img src={icon} alt="" />
+        <input type="text" placeholder='Ne Aramıştınız?'/>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bag-shopping"></i>
         </div>
       </div>
       <div className="products">

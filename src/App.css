@@ -32,7 +32,7 @@ body{
   display: flex;
   gap: 25px;
 }
-.nav img{
+.nav i{
   cursor: pointer;
 }
 .products{
@@ -75,6 +75,19 @@ body{
   font-family: MontserratMedıum, sans serif;
   font-size: 17pt;
   font-weight:100;
+}
+input{
+  font-size: 14px;
+  color: #333;
+  background-color: #f3f3f3;
+  border: 2px solid rgba(0,0,0,0);
+  border-radius: 6px;
+  padding: 10px 40px 10px 15px
+}
+input:focus{
+  background-color: #fff;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,.1),0 3px 10px 0 rgba(0,0,0,.1);
+  outline: none;
 }
 @media (max-width: 719px) {
   .products{
